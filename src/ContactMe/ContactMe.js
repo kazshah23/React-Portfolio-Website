@@ -2,7 +2,7 @@
 import Squiggle from './Squiggle.js'
 import { useForm, ValidationError } from '@formspree/react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import resume from './resume.pdf'
+import resume from './resume2.pdf'
 
 import './ContactMe.css'
 
