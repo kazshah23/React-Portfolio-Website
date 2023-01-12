@@ -6,12 +6,16 @@
   margin-left: -8px;
   margin-top: -18px;
 }
+@font-face {
+  font-family: 'MyFont';
+  src: url('./font.ttf') format('truetype');
+}
 .header1 {
   position: absolute;
-  margin-left: 15%;
+  margin-left: 18%;
   margin-top: 20%;
-  font-size: 120px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 150px;
+  font-family: 'MyFont';
   color: white;
   
 }
@@ -29,7 +33,7 @@
   background-color: black;
 }
 .lines-container {
-  height: 7850px;
+  height: 8150px;
   width: 5px;
   position: absolute;
   top: 0;

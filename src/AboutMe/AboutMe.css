@@ -10,12 +10,17 @@
   height: 400px;
   width: 1650px;
 }
+@font-face {
+  font-family: 'MyFont2';
+  src: url('./font4.ttf') format('truetype');
+}
 
 .curved {
   background-color: black;
   color: white;
   text-align: center;
   margin-top: 0;
+  font-family: 'MyFont2';
   
 }
 

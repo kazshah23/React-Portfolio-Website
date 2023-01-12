@@ -1,21 +1,26 @@
 .contactme-text {
   width: 1650px;
   height: 350px;
-  margin-top: -4px;
+  margin-top: -10px;
   background: #fdfff5;
+}
+@font-face {
+  font-family: 'MyFont2';
+  src: url('./font4.ttf') format('truetype');
 }
 
 .curved4 {
   background-color: black;
   color: white;
   text-align: center;
-  
+  font-family: 'MyFont2';
+  font-size: 40px;
 }
 
 .curved4.upper4 {
   background: #fdfff5;
   background-position: 50% -60px;
-  margin-bottom: -58px;
+  margin-bottom: -62px;
 }
 
 form {
