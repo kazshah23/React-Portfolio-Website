@@ -81,3 +81,8 @@ button[type="submit"]:hover {
 .links a {
   margin-left: 50px;
 }
+
+.thankyou {
+  text-align: center;
+  font-size: 50px;
+}

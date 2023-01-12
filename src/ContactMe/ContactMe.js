@@ -20,7 +20,7 @@ function ContactMe() {
 function ContactForm() {
   const [state, handleSubmit] = useForm("mvonozwe");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <p className='thankyou'>Thanks!</p>;
   }
   return (
       <form onSubmit={handleSubmit}>

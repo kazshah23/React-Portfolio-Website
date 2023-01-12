@@ -30,7 +30,7 @@ function languages() {
           imgSrc= {portfolio}
           title = "Portfolio "
           description="This Portfolio! (React)"
-          link="/landscape"
+          link="https://github.com/kazshah23/React-Portfolio-Website"
           />
            <Card
           imgSrc= {mosaics}
