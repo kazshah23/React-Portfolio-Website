@@ -1,0 +1,92 @@
+.homescreen {
+  background-image: url('nature.jpeg'); 
+  background-repeat: no-repeat;
+  height: 972px;
+  width: 1650px;
+  margin-left: -8px;
+  margin-top: -18px;
+}
+.header1 {
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 20%;
+  font-size: 120px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  
+}
+.border1 {
+  position: fixed;
+  height: 1000px;
+  width: 60px;
+  background-color: black;
+}
+.border2 {
+  position: fixed;
+  height: 1000px;
+  width: 60px;
+  right: 0px;
+  background-color: black;
+}
+.lines-container {
+  height: 7850px;
+  width: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  height: 100%;
+  background-color: black;
+  box-shadow: 0 0 0 0.1px black;
+  margin-right: 210px
+}
+
+.blob {
+  position:absolute; 
+  margin-top: 30px;
+  margin-left: 460px;
+  width: 700px;
+  filter: blur(10px);
+  
+}
+
+.blobglow {
+  filter: blur(50px);
+}
+
+
+.bird-container {
+  position: relative;
+}
+.bird {
+  position: absolute;
+  transform: translateY(-50%); 
+  width: 70px;
+  height: 70px;
+}
+.bird1 {
+  margin-top: 100px;
+  animation: fly 8.6s linear infinite; 
+}
+.bird2 {
+  margin-top: 200px;
+  animation: fly 10.6s linear infinite; 
+}
+.bird3 {
+  margin-top: 300px;
+  animation: fly 12.6s linear infinite; 
+}
+
+@keyframes fly {
+  0% {
+    left: -50px; 
+  }
+  100% {
+    left: 100%; 
+  }
+}
+
