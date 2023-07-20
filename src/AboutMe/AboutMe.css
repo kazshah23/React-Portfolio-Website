@@ -1,0 +1,106 @@
+.aboutme-text {
+ width: 1650px;
+ background: #fdfff5;
+ height: 1000px;
+ margin-top: -100px;
+ margin: 0 auto;
+}
+.school {
+  background-color: black;
+  height: 100%;
+  width: 1650px;
+  display: grid;
+  padding-top: 100px;
+}
+@font-face {
+  font-family: 'MyFont2';
+  src: url('./font4.ttf') format('truetype');
+}
+
+.curved {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  font-family: 'MyFont2';
+  
+}
+
+.curved.upper {
+  background-color: #D3858D;
+  background-position: 50% -60px;
+  margin-bottom: -58px;
+}
+.curved h1 {
+  color: white;
+  font-size: 80px;
+}
+
+.schoolheader {
+  position: absolute;
+  color: white;
+  font-size: 60px;
+  margin-top: -10px;
+}
+.schoolheader2 {
+  margin-left: 760px;
+}
+.school-text {
+  margin-left: 90px;
+  position: relative;
+}
+
+.hobbies-text {
+  margin-top: -72px;
+}
+
+.box1 {
+  position: absolute;
+  width: 732px;
+  height: 323px;
+  margin-top: 70px;
+  background-color: white;
+  color: black;
+  font-size: 21px;
+  padding: 15px;
+box-sizing: border-box;
+}
+
+.box2 {
+  position: absolute;
+  margin-top: 70px;
+  width: 732px;
+  height: 323px;
+  background-color: white;
+  color: black;
+  font-size: 21px;
+  margin-left: 750px;
+  line-height: 1.8;
+  padding: 15px;
+box-sizing: border-box;
+}
+
+.hobbiesheader {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.hobbies {
+  display: flex;
+  align-items: row;
+  width: 630px;
+  height: 300px;
+}
+
+.music {
+  width: 210px;
+  height: 300px;
+  border: 1px black;
+  text-align: center;
+  line-height: 2.5;
+}
+.skills {
+  font-size: 25px;
+  color: black;
+  margin-left: 20px;
+}
